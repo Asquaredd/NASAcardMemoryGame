@@ -1,0 +1,45 @@
+html { 
+    background: url("./2352.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+h2{
+    color:red;
+}
+body{
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+    font-size:xx-large;
+}
+
+#board{
+    height: 555px;
+    width: 475px;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 200,50,  0.35);
+    backdrop-filter: blur(25px);
+    border: 10px solid rgba(113, 20, 105, 0.75);
+    border-radius: 25px;
+    transform:scale(1.2)
+}
+
+.card{
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+    border-radius: 15px;
+
+    
+}

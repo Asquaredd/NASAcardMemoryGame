@@ -8,7 +8,7 @@ var cardList = [
     "saturn",
     "neptune",
     "pluto",
-    "Mercury",
+    "mercury",
     "ss"
 ];
 

@@ -22,15 +22,15 @@ body{
 }
 
 #board{
-    height: 555px;
-    width: 475px;
+    height: 675px;
+    width: 400px;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(0, 200,50,  0.35);
+    background-color: rgba(9, 255, 71, 0.40);
     backdrop-filter: blur(25px);
-    border: 10px solid rgba(113, 20, 105, 0.75);
+    border: 10px solid rgba(70, 20, 113, 0.75);
     border-radius: 25px;
     transform:scale(1.2)
 }
@@ -40,6 +40,7 @@ body{
     width: 90px;
     margin: 2.5px;
     border-radius: 15px;
+    border: 0.1px solid rgba(30, 253, 197, 0.75);
 
     
 }
